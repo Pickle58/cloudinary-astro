@@ -6,6 +6,6 @@ dotenv.config({
     path: '.env',
     out: './src/db/migrations'
     dbConnections: {
-        url:
+        url: process.env.DATABASE_URL
     }
 })
